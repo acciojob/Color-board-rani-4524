@@ -1,20 +1,13 @@
-/*  your css code here. If applicable */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .container {
-  width: 800px;
-  display: flex;
-  flex-wrap: wrap;
+	background-color:black;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr); /* 40 × 20px = 800 boxes visually */
+  gap: 2px;
 }
 
 .square {
   width: 20px;
   height: 20px;
-  background-color: #ddd;
-  margin: 1px;
-  transition: background-color 1s ease; /* smooth fade */
+  background-color: #222;
+  transition: background-color 1s ease;
 }

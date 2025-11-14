@@ -6,12 +6,12 @@ for(let i=0;i<boxes;i++){
 	const dElement = document.createElement("div");
 	dElement.classList.add("square");
 
-	dElement.addEventListener("mouseover" , ()=>{
+	dElement.addEventListener("mouseenter" , ()=>{
 		const randomColor = getRandomColor();
 		dElement.style.backgroundColor = randomColor;
 
 		setTimeout(()=>{
-			dElement.style.backgroundColor = "#ddd";
+			dElement.style.backgroundColor = "#222";
 		},1000);		
 });
 		divElement.appendChild(dElement);

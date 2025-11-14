@@ -11,7 +11,7 @@ for(let i=0;i<boxes;i++){
 		dElement.style.backgroundColor = randomColor;
 
 		setTimeout(()=>{
-			dElement.style.backgroundColor = #ddd;
+			dElement.style.backgroundColor = "#ddd";
 		},1000);		
 });
 		divElement.appendChild(dElement);

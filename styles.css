@@ -1,13 +1,23 @@
+body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
 .container {
-	background-color:black;
-  display: grid;
-  grid-template-columns: repeat(40, 1fr); /* 40 × 20px = 800 boxes visually */
-  gap: 2px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    gap: 2px;
 }
 
 .square {
-  width: 20px;
-  height: 20px;
-  background-color: #222;
-  transition: background-color 1s ease;
+    width: 18px;
+    height: 18px;
+    background: #222;
+    transition: background-color 1s ease;
+    border-radius: 2px;
 }

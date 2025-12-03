@@ -16,8 +16,8 @@ for (let i = 0; i < 800; i++) {
 
     // remove color smoothly after 1 second
     setTimeout(() => {
-      square.style.background = "#222";
-    }, 1000);
+  square.style.background = "#1d1d1d";
+}, 1000);
   });
 
   container.appendChild(square);
